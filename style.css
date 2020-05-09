@@ -1,3 +1,64 @@
-body{
-    
+html{
+        font-size: 14px;
 }
+div{
+       margin:10px; 
+}
+a{
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+}
+a:hover {
+        text-decoration: underline;
+    }
+.color{
+       color: navy
+}
+#topleft{
+        position: relative;
+        float: left;
+       
+}
+
+#topright{
+        position: relative;
+        float: right;
+}
+
+
+main{
+        width: 1000px;
+        height: 250px;
+        position: absolute;
+        left: 50%;
+        margin-left: -500px;
+        top: 35%;
+        margin-top: -100px;
+        text-align: center;  
+}
+#searchbar{
+        height: 35px;
+        width: 55%;     
+        border-radius: 25px;
+}
+button{
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        background-color: rgb(240, 234, 234);
+}
+#footer{
+        position: absolute;
+        bottom: 0; 
+}
+#bottomleft{
+        position: relative;
+        float: left;
+}
+#bottomright{
+        position: relative;
+        float: right;
+}
+
+
